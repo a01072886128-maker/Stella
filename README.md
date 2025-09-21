@@ -172,11 +172,11 @@ https://github-production-user-asset-6210df.s3.amazonaws.com/224683260/483044320
   - 이로 인해 서버 Controller(Servlet)가 요청을 해석하지 못하고 파싱 오류 발생.  
 
 - **해결**:  
-  1. **데이터 형식 통일 (Base64 인코딩)**  
+   **데이터 형식 통일 (Base64 인코딩)**  
      - JavaScript FileReader API를 사용하여 이미지 파일을 읽고 Base64 인코딩을 통해 긴 문자열(텍스트)로 변환.  
-  2. **단일 JSON 객체로 구조화**  
+   **단일 JSON 객체로 구조화**  
      - 변환된 이미지를 텍스트 메시지와 함께 `{ "text": "...", "image": "..." }` 형태로 JSON 객체에 묶어 전송.  
-  3. **서버 수신 로직 수정**  
+  **서버 수신 로직 수정**  
      - Back-End의 `SaveHistoryServlet`에서 `request.getReader()`로 요청 본문을 직접 읽고,  
        Gson 라이브러리를 활용해 JSON 파싱 로직을 추가.  
 
