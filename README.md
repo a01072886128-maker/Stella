@@ -1,15 +1,17 @@
-# TokkiTalk – 여자어 번역기
+# TOKKI TALK – 여자어 번역기
 
-## 1. 프로젝트명 (팀명: SU:DIVE)
-TokkiTalk – 남자들에게 어려운 여자들의 이중언어 속 메시지를 분석, 번역해주는 서비스를 제고해주고, 상황별 맞춤 대응 전략을 제안하는 번역 서비스
+## 1. 프로젝트명 TOKKI TALK 
+– 남자들에게 어려운 여자들의 이중언어 속 메시지를 분석, 번역해주는 서비스를 제공하며
+  상황별 맞춤 대응 전략을 제안하는 번역 서비스
 <br>
+
 <img width="1920" height="1080" alt="제목을 입력하세요 1" src="https://github.com/user-attachments/assets/83052b9c-b161-494d-a1cc-4fcc0925178e" />
 
 ---
 
 ## 2. 서비스 소개
-짧은 카카오톡/메신저 메시지에서 발생하는 남녀 간 의미 차이를 해석하고, 상대방의 의도를 분석하여 적절한 대응 문장을 제안해주는 서비스입니다.  
-‘괜찮아’라는 단어가 실제로 괜찮다는 의미인지, 혹은 다른 마음을 내포하고 있는지 분석할 수 있습니다.
+연인간 짧은 카카오톡/메신저 메시지에서 한국어 속에 숨은 진짜 의미를 분석,번역해주고 적절한 대응 문장을 제안해주는 한국어 번역 서비스입니다.  
+
 <img width="1920" height="1080" alt="제목을 입력하세요 3" src="https://github.com/user-attachments/assets/8e83082d-4c8e-4f12-a9eb-c30fe078636d" />
 
 <img width="1920" height="1080" alt="제목을 입력하세요 4" src="https://github.com/user-attachments/assets/ced689bf-517e-4728-8200-2909ca7f3571" />
@@ -17,24 +19,32 @@ TokkiTalk – 남자들에게 어려운 여자들의 이중언어 속 메시지�
 
 ---
 
-## 3. 프로젝트 기간
-2025년 7월 ~ 2025년 8.22 (약 2주)
+## 3. :calendar:프로젝트 기간
+2025년 7.18 ~ 8.22 (약 2주)
 
 ---
 
 ## 4. 주요 기능
-- 입력 문장의 감정 레벨 분석
-- 남녀 간 의미 차이 해석
-- 상황별 대응 문장 추천 (랜덤 3~4개 출력)
-- 사용자 맞춤 반응 제안 기능
+
+- **여자어 번역 서비스 💬**  
+  - 일상적인 대화 속에서 사용되는 **여자들의 이중 언어**를 분석합니다.  
+  - 예: “괜찮아”라는 표현이 실제로는 ‘정말 괜찮음’인지, ‘섭섭함이 숨겨져 있음’인지를 감정 레벨 기반으로 판별합니다.  
+  - 분석 결과에 따라 **최대 3~4개의 대응 문장**을 랜덤 추천하여, 상황에 맞는 답변을 제시합니다.  
+
+- **센스고사 기능 🎯**  
+  - 사용자에게 상황별 문제(퀴즈)를 제시하여, **자신의 ‘센스 지수’**를 확인할 수 있게 합니다.  
+  - 단순한 번역 서비스 이용을 넘어, **게임적 요소**를 통해 사용자가 서비스에 자연스럽게 참여하도록 유도합니다.  
+  - 채점 결과와 피드백을 제공하여, 사용자가 반복적으로 학습/체험할 수 있습니다.  
+
+- **사용자 맞춤형 반응 제안 🤝**  
+  - 입력 문장의 감정 분석 결과와 선톡여부, 시간, 답장시간등 이모티콘, ㅋㅋ,ㅎㅎ 까지 감정화하여 **맞춤형 대응 방안**을 제시합니다.  
+  - 사용자는 자신의 대화 패턴과 반응을 기록/조회할 수 있으며, 점차적으로 더 나은 커뮤니케이션 방식을 학습할 수 있습니다.  
 
 ---
 
 ## 5. 기술 스택
 
 <img width="1920" height="1080" alt="제목을 입력하세요 13" src="https://github.com/user-attachments/assets/c6ebb94f-f8d8-4a84-a9e7-a32f24e62c0d" />
-
-## 🔧 기술 스택
 
 ## 🔧 기술 스택
 
@@ -46,12 +56,16 @@ TokkiTalk – 남자들에게 어려운 여자들의 이중언어 속 메시지�
 **프레임워크**  
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 
-**DB**  
+**DB & 데이터**  
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![CSV](https://img.shields.io/badge/CSV-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
-**서버**  
+**서버 & 빌드 툴**  
 ![Apache Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+
+**ORM & 데이터 매퍼**  
+![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=for-the-badge&logo=databricks&logoColor=white)
 
 **API**  
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
@@ -69,9 +83,6 @@ TokkiTalk – 남자들에게 어려운 여자들의 이중언어 속 메시지�
 
 <img width="1920" height="1080" alt="제목을 입력하세요 14" src="https://github.com/user-attachments/assets/d21d0951-14c0-406b-a342-eb33f6c6d28d" />
 
-![Uploading 제목을 입력하세요 16.png…]()
-
-
 - **Front-End**: HTML, CSS, JavaScript 기반 화면 구성  
 - **Back-End**: JSP & Servlet, Tomcat, Maven, CSV 데이터 처리  
 - **Database 연동**: Oracle DB, MyBatis를 활용한 데이터 관리  
@@ -81,7 +92,7 @@ TokkiTalk – 남자들에게 어려운 여자들의 이중언어 속 메시지�
 
 ## 7. 서비스 흐름도
 
-사용자 여정은 **회원가입/로그인 → 메인화면 → 기능 선택 → 결과/히스토리 관리**의 흐름으로 구성됩니다.
+사용자 서비스는는 **회원가입/로그인 → 메인화면 → 기능 선택 → 결과/히스토리 관리**의 흐름으로 구성됩니다.
 
 <img width="1920" height="1080" alt="제목을 입력하세요 11" src="https://github.com/user-attachments/assets/a8334b12-26d9-4ed3-82f9-eb770a86a85e" />
 
@@ -133,7 +144,14 @@ TokkiTalk – 남자들에게 어려운 여자들의 이중언어 속 메시지�
 <img width="1920" height="1080" alt="제목을 입력하세요 22" src="https://github.com/user-attachments/assets/548af3af-588a-4925-8275-ea415179f9d1" />
 
 ---
-## 10. 시연 영상
+## 10. 시연영상
 
 https://github-production-user-asset-6210df.s3.amazonaws.com/224683260/483044320-ea1d59ca-85c7-47c0-aeb1-d77b98917170.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250921%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250921T040142Z&X-Amz-Expires=300&X-Amz-Signature=9a372d30f9cba9351b3070e624318812fb56e2add5b2b7aa2df44b59e567cf23&X-Amz-SignedHeaders=host
+
+---
+## 11. 기대효과 및 활용방안
+
+<img width="1920" height="1080" alt="제목을 입력하세요 26" src="https://github.com/user-attachments/assets/c211a983-d030-4e2a-9a23-18fcc934bbb9" />
+
+<img width="1920" height="1080" alt="제목을 입력하세요 27" src="https://github.com/user-attachments/assets/d79395e7-ca35-43cc-afd5-bde05485c4d0" />
 
